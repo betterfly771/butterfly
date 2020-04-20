@@ -1,0 +1,3 @@
+[submodule "packages/butterfly-package"]
+	path = packages/butterfly-package
+	url = https://github.com/butterfly771/butterfly-npm.git
