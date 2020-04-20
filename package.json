@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev:parent": "cd template/single-spa && ls && npm run watch"
+    "dev:parent": "cd template/parent && ls && npm run watch",
+    "init": "cd template/parent && npm install"
   },
   "repository": {
     "type": "git",

@@ -27,6 +27,6 @@ export default {
         }) : null
     ],
     globals: {
-        butterfly: "../../packages/butterfly-package/dist/bundle.esm.js"
+        butterfly1: "../../packages/butterfly-package/dist/index.js"
     }
 }

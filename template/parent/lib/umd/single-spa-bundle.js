@@ -527,9 +527,21 @@
       return a + b;
     };
 
-    console.log(111);
+    var Butterfly = function () {
+      function Butterfly() {
+        this.name = "yueqi";
+      }
 
-    console.log('butter', sum);
+      Butterfly.prototype.test = function () {
+        return sum(1, 2);
+      };
+
+      return Butterfly;
+    }();
+
+    console.log(222);
+
+    console.log('butter', Butterfly);
 
     exports.registerApplication = registerApplication;
     exports.start = start;
